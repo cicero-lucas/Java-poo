@@ -1,5 +1,11 @@
 public class Cachorro extends Mamifero {
 
+  public Cachorro(String nome, int idade) {
+    
+    this.setNome(nome);
+    this.setIdade(idade);
+  }
+
   @Override
   public void emitirSom() {
       System.out.println("Au Au");
